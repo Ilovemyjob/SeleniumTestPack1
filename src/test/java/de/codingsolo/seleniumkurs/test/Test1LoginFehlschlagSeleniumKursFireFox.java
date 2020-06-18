@@ -17,7 +17,7 @@ public class Test1LoginFehlschlagSeleniumKursFireFox {
 	@Before
 	public void setUp() throws Exception {
 		System.out.println("Initialisiere Webdriver");
-		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\drivers\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://seleniumkurs.codingsolo.de");
 	}
